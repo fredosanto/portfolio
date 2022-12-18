@@ -25,19 +25,26 @@ body {
 
 
 h1 {
+    font-size: 3rem;
     text-transform: uppercase;
     font-weight: 400;
+    margin-bottom: 5px;
 }
 
 h2 {
+    font-size: 2rem;
     font-family: Montaga ,Georgia, 'Times New Roman', Times, serif;
     text-transform: uppercase;
     font-weight: 400;
+    width: 100%;
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 1rem;
+    font-family: Montaga ,Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
     font-weight: 400;
+    margin-bottom: 5px;
 }
 
 p {
@@ -81,7 +88,7 @@ a {
     position: relative;
     align-items: center;
     justify-items: center;
-    margin: auto;
+    margin: 50px auto;
     max-width: 90%;
     min-height: 100vh;
 }
@@ -92,7 +99,7 @@ a {
 
 .section-top {
     width: 100%;
-    margin-bottom: 0;
+    margin-bottom: 50px;
 }
 
 .section-text p {
@@ -123,7 +130,8 @@ a {
 .section-bottom {
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    margin: 10px auto;
+    margin-bottom: 100px;
     gap: 20px;
     width: 100%;
 }
@@ -170,12 +178,26 @@ a {
     object-fit: cover;
 }
 
+.about {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.about h2 {
+    margin-bottom: 10px;
+}
+
+.about p {
+    max-width: 500px;
+}
+
 
 /* FOOTER */
 footer {
     padding: 50px;
     margin: 10px;
     text-align: center;
+    /* background-color: #F2E9CE; */
 }
 
 
